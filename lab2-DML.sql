@@ -3,6 +3,8 @@ use dbms;
 -- Insert a single record into the department table.
 insert into departments values(3, 'MOFA', 'SD');
 
+insert into departments values
+(1, 'UEFA', 'SD');
 
 -- Insert more than a record into the employees table using a single insert command.
 insert into employees

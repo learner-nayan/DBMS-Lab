@@ -5,6 +5,7 @@ select deptno from departments
 		union
 select deptno from employees;
 
+insert into departments values(7, 'PL', 'England');
 
 -- Display all the deptpartment numbers available with the departments and employees tables.
 select deptno from departments
