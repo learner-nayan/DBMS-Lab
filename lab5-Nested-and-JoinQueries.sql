@@ -1,3 +1,5 @@
+use dbms;
+
 -- Display all employee names and salary whose salary is greater than minimum salary of the company and job title starts with 'A‘.
 select ename,sal from pseudo_employees 
 where sal > (select min(sal) from pseudo_employees) and job like 'A%';
